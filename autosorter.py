@@ -10,6 +10,7 @@ DIRECTORIES = { #kayak ada yang kurang tapi apa ya?
     "EXCEL": [".xlsx", ".xls"],
     "PPT": [".ppt", ".pptx", ".pptm", ".potx"],
     "GOLANG": [".go", ".mod"],
+    "PYTHON": [".py", ".md"],
     "C": [".cpp", ".c", ".cs"],
     "ARCHIVES": [".zip", ".tar", "gz", ".7z", ".rar", ".iso"],
     "EXECUTION": [".exe", ".bat", ".dll", ".scr"],
@@ -29,6 +30,7 @@ FILE_FORMATS = {ext: category
 
 SYSTEM_FILES = ["pagefile.sys", "hiberfil.sys", "swapfile.sys"]
 SYSTEM_DIRS = ["System Volume Information", "$RECYCLE.BIN", "Windows"]
+IGNORED_FILES = ["autosorter.py"] #daripada ikut pindah -_-
 
 def organize():
     for entry in os.scandir('.'):
@@ -40,6 +42,8 @@ def organize():
 
         f_path = Path(entry)
         file_format = f_path.suffix.lower()
+        if f_path.name in IGNORED_FILES:
+            continue #lanjutkan!
 
         if f_path.name in SYSTEM_FILES or not file_format:
             continue
