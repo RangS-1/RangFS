@@ -10,7 +10,6 @@ DIRECTORIES = { #kayak ada yang kurang tapi apa ya?
     "EXCEL": [".xlsx", ".xls"],
     "PPT": [".ppt", ".pptx", ".pptm", ".potx"],
     "GOLANG": [".go", ".mod"],
-    "PYTHON": [".py", ".md"],
     "C": [".cpp", ".c", ".cs"],
     "ARCHIVES": [".zip", ".tar", "gz", ".7z", ".rar", ".iso"],
     "EXECUTION": [".exe", ".bat", ".dll", ".scr"],
