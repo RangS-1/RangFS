@@ -49,7 +49,7 @@ You can download RangFS by cloning the [Git Repo](https://github.com/RangS-1/Ran
 
 ~/RangFS ❯ pip3 install -r requirements.txt
 
-~C:/Users/LAPTOP_NAME ❯ python3 rangfs.py
+~C:/Users/LAPTOP_NAME ❯ python3 autosorter.py
 ```
 
 -------------
