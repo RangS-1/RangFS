@@ -4,7 +4,7 @@ from pathlib import Path #gak usah di download modulenya, kecuali kalo gak punya
 DIRECTORIES = { #kayak ada yang kurang tapi apa ya?
     "HTML": [".html5", ".html", ".htm", ".xhtml", ".xml", ".css", ".js"],
     "IMAGES": [".jpeg", ".jpg", ".tiff", ".gif", ".bmp", ".png", ".bpg", ".svg", ".heif", ".psd", ".xcf", ".webp"],
-    "VIDEOS": [".avi", ".mov", ".mp4", ".mpeg", ".m2v"],
+    "VIDEOS": [".avi", ".mov", ".mp4", ".mpeg", ".m2v", ".mkv", ],
     "AUDIOS": [".mp3", ".wav", ".ogg", ".aac", ".flac", ".pcm", ".aup3", ".midi", ".mid", ".chart"],
     "DOCX": [".docx", ".doc", ".odt", ".pdf", ".rtf", ".wpd"],
     "EXCEL": [".xlsx", ".xls"],
