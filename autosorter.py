@@ -6,20 +6,22 @@ DIRECTORIES = { #kayak ada yang kurang tapi apa ya?
     "IMAGES": [".jpeg", ".jpg", ".tiff", ".gif", ".bmp", ".png", ".bpg", ".svg", ".heif", ".psd", ".xcf", ".webp"],
     "VIDEOS": [".avi", ".mov", ".mp4", ".mpeg", ".m2v", ".mkv", ],
     "AUDIOS": [".mp3", ".wav", ".ogg", ".aac", ".flac", ".pcm", ".aup3", ".midi", ".mid", ".chart"],
-    "DOCX": [".docx", ".doc", ".odt", ".pdf", ".rtf", ".wpd"],
-    "EXCEL": [".xlsx", ".xls"],
+    "DOCX": [".docx", ".doc", ".odt", ".pdf", ".rtf", ".wpd", ".dotx", ".docm"],
+    "EXCEL": [".xlsx", ".xls", ".xlsm", ".xlsb", ".xltx", ".xla", ".xlam"],
     "PPT": [".ppt", ".pptx", ".pptm", ".potx"],
     "GOLANG": [".go", ".mod"],
     "PYTHON": [".py", ".md"],
-    "C": [".cpp", ".c", ".cs"],
+    "RUST": [".rs", ".toml"],
+    "C TYPE": [".cpp", ".c", ".cs", ".h", ".o", ".net"],
+    "VBASIC": [".vbp", ".vbproj", ".vbg", ".cls", ".frm", ".bas"],
     "ARCHIVES": [".zip", ".tar", "gz", ".7z", ".rar", ".iso"],
     "EXECUTION": [".exe", ".bat", ".dll", ".scr"],
     "3D": [".obj", ".fbx", ".stl", ".glb", ".blend", ".skp", ".stl", ".rbz", ".dwg", ".f3d", ".iam", ".ipt"], #capek gua nyari-nyari informasi -_-
-    "INSTALLER": [".msi", ".dmg", ".app", ".deb", ".apk", ".ipa", "sis", ".sisx", ".jar", ".jad", ".rpm", ".yum", ".dnf", ".sh"], #untuk pengguna linux juga bisa!
+    "INSTALLER": [".msi", ".dmg", ".app", ".deb", ".apk", ".ipa", "sis", ".sisx", ".jar", ".jad", ".rpm", ".yum", ".dnf", ".sh", ".msix", ".msi.zip", ".run", ".pkg"], #untuk pengguna linux juga bisa!
     "MILO": [".milo_ps2"],
     "DTB": [".dtb"],
     "ICON": [".ico"],
-    "MANGA": [".cbz", ".cbr", ".cbt", ".mga", ".wmga"],
+    "MANGA": [".cbz", ".cbr", ".cbt", ".mga", ".wmga"], #kayak wibu ya? -_-
     "DOWNLOAD UNCOMPLETED": [".crdownload"],
     "TEXT": [".text", ".txt", ".log"]
 }
